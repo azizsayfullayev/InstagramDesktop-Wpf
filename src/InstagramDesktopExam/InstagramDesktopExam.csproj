@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Images\Instagram_icon-icons.com_66804.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Icons\add.png" />
+    <None Remove="Assets\Icons\bar-chart.png" />
+    <None Remove="Assets\Icons\bell.png" />
+    <None Remove="Assets\Icons\chat-bubble.png" />
+    <None Remove="Assets\Icons\email.png" />
+    <None Remove="Assets\Icons\exit.png" />
+    <None Remove="Assets\Icons\explore.png" />
+    <None Remove="Assets\Icons\heart.png" />
+    <None Remove="Assets\Icons\home.png" />
+    <None Remove="Assets\Icons\ins1.png" />
+    <None Remove="Assets\Icons\instagram.png" />
+    <None Remove="Assets\Icons\more.png" />
+    <None Remove="Assets\Icons\save-instagram.png" />
+    <None Remove="Assets\Icons\search.png" />
+    <None Remove="Assets\Icons\send.png" />
+    <None Remove="Assets\Icons\setting.png" />
+    <None Remove="Assets\Images\1.jpg" />
+    <None Remove="Assets\Images\2.jpg" />
+    <None Remove="Assets\Images\22.jpg" />
+    <None Remove="Assets\Images\3.jpg" />
+    <None Remove="Assets\Images\4.jpg" />
+    <None Remove="Assets\Images\5.jpg" />
+    <None Remove="Assets\Images\6.jpg" />
+    <None Remove="Assets\Images\7.jpg" />
+    <None Remove="Assets\Images\8.jpg" />
+    <None Remove="Assets\Images\karim.jpg" />
+    <None Remove="Assets\Images\me.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Images\Instagram_icon-icons.com_66804.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\add.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\bar-chart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\bell.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\chat-bubble.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\email.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\exit.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\explore.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\heart.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\home.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\ins1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\instagram.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\more.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\save-instagram.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\search.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\send.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Icons\setting.png">
+      <CopyToOutputDirectory>.</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\22.jpg" />
+    <Resource Include="Assets\Images\3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\karim.jpg" />
+    <Resource Include="Assets\Images\me.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
