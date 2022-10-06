@@ -1,4 +1,4 @@
-﻿
+
 using Microsoft.Win32;
 using System.Windows;
 using System.Windows.Controls;
@@ -36,7 +36,7 @@ namespace InstagramDesktopExam
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openDialog = new OpenFileDialog();
+            OpenFileDialog openDialog = new();
             openDialog.Filter = "Image files|*.bmp;*.jpg;*.png";
             openDialog.FilterIndex = 1;
 
